@@ -10,9 +10,9 @@ const loading = ref(false);
 <template>
 
 
+<RouterView />
 
-
-    <v-layout class="rounded rounded-md">
+    <!-- <v-layout class="rounded rounded-md">
     <v-app-bar title="Application bar">
         <Header/>
     </v-app-bar>
@@ -24,13 +24,10 @@ const loading = ref(false);
     </v-navigation-drawer>
 
     <v-main class="d-flex align-center justify-center" style="min-height: 300px;">
-        <RouterView />
-
-
 
 
     </v-main>
-  </v-layout>
+  </v-layout> -->
 
 
 
